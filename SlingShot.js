@@ -13,7 +13,7 @@ class Slingshot{
     }
     //write code for attach( ) here
     attach(body){
-        this.Slingshot=polygon.body;
+        this.sling.bodyA = body;
     }
 
     fly(){
